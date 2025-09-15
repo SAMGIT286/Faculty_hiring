@@ -1,0 +1,44 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: #d0e7f9; /* Changed background color */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+            text-align: center;
+            max-width: 400px;
+        }
+
+        /* File input styling */
+        input[type="file"] {
+            padding: 10px;
+            border-radius: 15px;
+            border: 1px solid #ccc;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        /* Submit button styling */
+        button {
+            padding: 10px 20px;
+            background-color: #A4B5C4;
+            border: none;
+            border-radius: 15px;
+            margin-top: 15px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #8a9aad;
+        }

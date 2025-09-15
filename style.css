@@ -1,0 +1,33 @@
+
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+.brand{
+    display: flex;
+    padding: 5px;
+}
+
+.navbar{
+ display: flex;
+ padding: 5px;
+ justify-content: space-between;
+ margin: 2px;
+ 
+}
+
+.nav-links a {
+    text-decoration: none;
+    color : blue;
+}
+
+.nav-links{
+justify-content: space-between;
+padding-top: 35px;
+margin: 5px;
+} 
+
+.nav-links a:hover {
+color:#E3C398
+}
